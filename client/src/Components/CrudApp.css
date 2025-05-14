@@ -1,0 +1,115 @@
+.crud-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.crud-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.crud-input{
+    flex: 1;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.crud-input::placeholder{
+    color: #888;
+}
+
+.crud-button{
+    width: 100px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.crud-button.add{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.crud-button.update{
+    background-color: #2196F3;
+    color: white;
+}
+
+.crud-button.edit{
+    background-color: #ffc107;
+    color: #000;
+}
+
+.crud-button.delete{
+    background-color: #dc3545;
+    color: white;
+}
+
+.crud-button:hover{
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.items-list{
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.items-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    background-color: #2d2d2d;
+    border-radius: 6px;
+    /* transition: transform 0.2s ease; */
+}
+
+/* .items-card:hover{
+    transform: translateY(-2px);
+} */
+
+.item-name{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.button-group{
+    display: flex;
+    gap: 8px;
+}
+
+.error-message{
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(220, 53, 69, 0.1);
+    border-radius: 4px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
